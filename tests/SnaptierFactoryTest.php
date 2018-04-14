@@ -2,13 +2,13 @@
 
 namespace Snaptier\Laravel\Tests;
 
-use Snaptier\API\Client;
-use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
-use Snaptier\Laravel\SnaptierFactory;
 use GrahamCampbell\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
 use Illuminate\Contracts\Cache\Factory;
 use Illuminate\Contracts\Cache\Repository;
 use Mockery;
+use Snaptier\API\Client;
+use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
+use Snaptier\Laravel\SnaptierFactory;
 
 /**
  * This is the snaptier factory test class.

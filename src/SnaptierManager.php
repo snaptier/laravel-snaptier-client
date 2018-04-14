@@ -24,8 +24,8 @@ class SnaptierManager extends AbstractManager
     /**
      * Create a new snapier manager instance.
      *
-     * @param \Illuminate\Contracts\Config\Repository    $config
-     * @param \Snaptier\Laravel\SnaptierFactory $factory
+     * @param \Illuminate\Contracts\Config\Repository $config
+     * @param \Snaptier\Laravel\SnaptierFactory       $factory
      *
      * @return void
      */

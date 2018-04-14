@@ -2,13 +2,13 @@
 
 namespace Snaptier\Laravel;
 
-use Snaptier\API\Client;
-use Snaptier\API\HttpClient\Builder;
-use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
 use Http\Client\Common\Plugin\RetryPlugin;
 use Illuminate\Contracts\Cache\Factory;
 use InvalidArgumentException;
 use Madewithlove\IlluminatePsrCacheBridge\Laravel\CacheItemPool;
+use Snaptier\API\Client;
+use Snaptier\API\HttpClient\Builder;
+use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
 
 /**
  * This is the snaptier factory class.
@@ -34,8 +34,8 @@ class SnaptierFactory
     /**
      * Create a new snaptier factory instance.
      *
-     * @param \Snaptier\Laravel\Authenticators\AuthenticatorFactory         $auth
-     * @param \Illuminate\Contracts\Cache\Factory|null                      $cache
+     * @param \Snaptier\Laravel\Authenticators\AuthenticatorFactory $auth
+     * @param \Illuminate\Contracts\Cache\Factory|null              $cache
      *
      * @return void
      */

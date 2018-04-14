@@ -2,10 +2,10 @@
 
 namespace Snaptier\Laravel\Tests\Authenticators;
 
+use Mockery;
 use Snaptier\API\Client;
 use Snaptier\Laravel\Authenticators\PasswordAuthenticator;
 use Snaptier\Laravel\Tests\AbstractTestCase;
-use Mockery;
 
 /**
  * This is the password authenticator test class.

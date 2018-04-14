@@ -2,10 +2,10 @@
 
 namespace Snaptier\Laravel\Tests\Authenticators;
 
+use Mockery;
 use Snaptier\API\Client;
 use Snaptier\Laravel\Authenticators\OauthAuthenticator;
 use Snaptier\Laravel\Tests\AbstractTestCase;
-use Mockery;
 
 /**
  * This is the oauth authenticator test class.

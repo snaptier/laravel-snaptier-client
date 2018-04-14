@@ -2,11 +2,11 @@
 
 namespace Snaptier\Laravel\Tests;
 
+use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 use Snaptier\API\Client;
 use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
 use Snaptier\Laravel\SnaptierFactory;
 use Snaptier\Laravel\SnaptierManager;
-use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 
 /**
  * This is the service provider test class.

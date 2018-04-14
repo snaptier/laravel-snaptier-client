@@ -2,8 +2,8 @@
 
 namespace Snaptier\Laravel\Tests;
 
-use Snaptier\Laravel\SnaptierServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
+use Snaptier\Laravel\SnaptierServiceProvider;
 
 /**
  * This is the abstract test case class.

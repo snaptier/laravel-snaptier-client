@@ -2,8 +2,8 @@
 
 namespace Snaptier\Laravel\Authenticators;
 
-use Snaptier\API\Client;
 use InvalidArgumentException;
+use Snaptier\API\Client;
 
 /**
  * This is the password authenticator class.

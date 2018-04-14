@@ -2,9 +2,9 @@
 
 namespace Snaptier\Laravel\Tests\Facades;
 
-use Snaptier\Laravel\SnaptierManager;
-use Snaptier\Laravel\Facades\Snaptier;
 use GrahamCampbell\TestBenchCore\FacadeTrait;
+use Snaptier\Laravel\Facades\Snaptier;
+use Snaptier\Laravel\SnaptierManager;
 use Snaptier\Laravel\Tests\AbstractTestCase;
 
 /**

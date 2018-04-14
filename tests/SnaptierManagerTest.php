@@ -2,12 +2,12 @@
 
 namespace Snaptier\Laravel\Tests;
 
-use Snaptier\API\Client;
-use Snaptier\Laravel\SnaptierFactory;
-use Snaptier\Laravel\SnaptierManager;
 use GrahamCampbell\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
 use Illuminate\Contracts\Config\Repository;
 use Mockery;
+use Snaptier\API\Client;
+use Snaptier\Laravel\SnaptierFactory;
+use Snaptier\Laravel\SnaptierManager;
 
 /**
  * This is the snaptier manager test class.

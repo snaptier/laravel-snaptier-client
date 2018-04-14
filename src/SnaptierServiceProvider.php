@@ -2,12 +2,12 @@
 
 namespace Snaptier\Laravel;
 
-use Snaptier\API\Client;
-use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
+use Snaptier\API\Client;
+use Snaptier\Laravel\Authenticators\AuthenticatorFactory;
 
 /**
  * This is the snaptier service provider class.
