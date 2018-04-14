@@ -1,0 +1,54 @@
+{
+    "name": "snaptier/laravel-client",
+    "description": "A Snaptier Bridge For Laravel 5",
+    "keywords": ["laravel", "framework", "snaptier", "php-snaptier-api", "PHP Snaptier API", "snaptier bridge", "bridge", "Snaptier", "Laravel Snaptier", "Laravel-Snaptier"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Piedrafita",
+            "email": "soy@miguelpiedrafita.com",
+            "role": "Developer",
+            "homepage": "https://miguelpiedrafita.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/contracts": "5.5.*|5.6.*",
+        "illuminate/support": "5.5.*|5.6.*",
+        "graham-campbell/manager": "^4.0",
+        "snaptier/client": "*"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^2.0",
+        "graham-campbell/testbench": "^5.0",
+        "madewithlove/illuminate-psr-cache-bridge": "^1.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5|^7.0",
+        "php-http/guzzle6-adapter": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snaptier\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Snaptier\\Laravel\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Snaptier\\Laravel\\SnaptierServiceProvider"
+            ],
+            "facades": {
+                "Snaptier": "Snaptier\\Laravel\\Facades\\Snaptier"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
